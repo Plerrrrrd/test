@@ -325,3 +325,4 @@ def merge_outbounds(template, parsed_outbounds, selector_tags):
 def get_config_template():
     with open("singbox-template.txt") as f:
         return json.load(f)
+        
