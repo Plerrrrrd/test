@@ -1,0 +1,125 @@
+body {
+  background: #f3f7fb;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 36px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.09);
+  padding: 26px 18px 24px 18px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  padding-bottom: 16px;
+  font-weight: 600;
+}
+.header-title {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.card {
+  background: #f9f9fb;
+  padding: 18px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+.textarea {
+  width: 100%;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+  padding: 7px 8px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  resize: vertical;
+}
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #007bff;
+  color: #fff;
+}
+.btn-secondary {
+  background: #6c757d;
+  color: #fff;
+}
+.btn-success {
+  background: #28c76f;
+  color: #fff;
+}
+.btn-info {
+  background: #2dceef;
+  color: #fff;
+}
+.action-buttons {
+  margin-top: 18px;
+  display: flex;
+  gap: 8px;
+}
+.upload-msg {
+  margin-top: 12px;
+  color: #28c76f;
+  font-weight: 600;
+}
+.error {
+  background: #fff1f0;
+  color: #d90429;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.footer {
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+  margin-top: 42px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.modern-table {
+  margin-top: 18px;
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 14px;
+}
+.modern-table th, .modern-table td {
+  padding: 8px 6px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+.modern-table th {
+  background: #f5f6fa;
+  font-weight: 600;
+}
+.modern-table tr:last-child td {
+  border-bottom: none;
+}
+select {
+  font-size: 15px;
+  padding: 3px 6px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 98vw;
+    padding: 6vw 2vw 20vw 2vw;
+  }
+}
